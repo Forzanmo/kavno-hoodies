@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+.product {
+    background: white;
+    margin: 40px auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+button {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
