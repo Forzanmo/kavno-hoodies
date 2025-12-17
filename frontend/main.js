@@ -1,5 +1,5 @@
 function placeOrder() {
-    fetch("https://YOUR_BACKEND_URL/order", {
+    fetch("https://kavno-hoodies-backend.onrender.com/order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -9,5 +9,6 @@ function placeOrder() {
         })
     })
         .then(res => res.json())
-        .then(data => alert(data.message));
+        .then(data => alert(data.message))
+        .catch(err => alert("Order failed"));
 }
